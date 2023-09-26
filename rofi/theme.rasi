@@ -1,0 +1,92 @@
+@import "colors.rasi"
+
+window {
+    width: 30%;
+    padding: 20;
+    border: 6;
+    border-color: @bg-alt;
+    background-color: @bg;
+}
+
+mainbox {
+  spacing: 0;
+  background-color: @bg;
+  children: [ "imagebox", "inputbar", "listview", "mode-switcher" ];
+}
+
+imagebox {
+    background-color: transparent;
+    background-image: url("~/walls/05.jpg", width);
+}
+
+inputbar {
+  spacing: 0;
+  background-color: @bg;
+  children: [ "prompt", "entry" ];
+  margin: 20 0 20 0;
+}
+
+listview {
+  background-color: @bg;
+  columns: 1;
+  lines: 14;
+  spacing: 0;
+}
+
+element {
+  background-color: @bg;
+  text-color: @fg;
+  border-radius: 3;
+  padding: 6 4;
+}
+
+element-text {
+    cursor:                      pointer;
+    background-color:            transparent;
+    text-color:                  inherit;
+    vertical-align:              0.5;
+}
+
+// element-icon {
+//     background-color:            transparent;
+//     size:                        24;
+//     text-color:                  inherit;
+//     cursor:                      inherit;
+// }
+
+element selected {
+  background-color: @selected;
+  text-color: inherit;
+}
+
+prompt {
+  padding: 12;
+  background-color: @teal;
+  text-color: inherit;
+  border-radius: 4;
+}
+
+entry {
+  padding: 12;
+  background-color: @bg;
+  text-color: @fg;
+}
+mode-switcher {
+  spacing: 0;
+  background-color: @bg;
+  margin: 20 0 0 0;
+}
+button {
+  cursor: pointer;
+  border-radius: 2;
+  padding: 12;
+  margin: 0 8 0 8;
+  background-color: @bg-alt;
+  text-color: @fg;
+}
+
+button selected {
+  background-color: @teal;
+  text-color: inherit;
+  border-radius: 2;
+}

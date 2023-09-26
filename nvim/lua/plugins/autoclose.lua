@@ -1,0 +1,2 @@
+-- autoclose
+require("autoclose").setup()

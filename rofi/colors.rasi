@@ -1,0 +1,23 @@
+* {
+    bg:             #2E3440FF;
+    bg-alt:         #3B4252FF;
+    fg:             #ECEFF4FF;
+    selected:       #81A1C1FF;
+    active:         #A3BE8CFF;
+    urgent:         #BF616AFF;
+    
+    cyan: #88c0d0;
+    orange: #D08770;
+    purple: #B48EAD;
+    yellow: #EBCB8B;
+    gray: #D8DEE9;
+    teal: #8FBCBB;
+
+    shade: #98C379;
+    lightgray: #e8e8e8;
+    lightpurple: #9a77b3;
+    darkviolet: #6445a1;
+    lightgreen: #8ecb69;
+    indigo: #6C77BB;
+    lightindigo: #5E81AC;
+}

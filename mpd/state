@@ -1,0 +1,20 @@
+sw_volume: 100
+audio_device_state:1:My Pulse Output
+audio_device_state:1:my_fifo
+state: stop
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:y2mate.com - Nightcore Pandemonium Acoustic Version Lyrics.mp3
+1:y2mate.com - Powfu death bed coffee for your head Official Video ft beabadoobee.mp3
+2:FalInLuv/Can't Get You Out Of My Head - Kylie Minogue (Fall Cover) (Lyrics & Vietsub) [M5aYJ5uU9yU].mp3
+3:FalInLuv/Can't Get You Out of My Head (Lofi Ver.) - Kylie Minogue [DFBsyxFqWxU].mp3
+4:FalInLuv/Talking To The Moon - Bruno Mars (Fall Cover) (Lyrics & Vietsub) [GLwCJaSiE0Y].mp3
+5:FalInLuv/Try - Colbie Caillat (Lyrics & Vietsub) [KnBtzLQrL7U].mp3
+6:FalInLuv/Why Not Me - Enrique Iglesias (Lyrics & Vietsub) [rtzebRfn0_I].mp3
+playlist_end

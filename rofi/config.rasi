@@ -1,0 +1,15 @@
+configuration {
+	modi: "window,run,ssh,drun";
+	font: "JetBrainsMono Nerd Font Medium 12";
+	// show-icons: true;
+	// icon-theme: "Papirus";
+	window-format: "{w} · {c} · {t}";
+	drun-display-format: "{name}";
+	sidebar-mode: true;
+	display-window: "Windows";
+	display-run: "Run";
+	display-drun: "Apps";
+	hover-select: false;
+}
+
+@theme "theme.rasi"
