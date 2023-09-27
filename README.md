@@ -5,7 +5,8 @@ Welcome to my dotfiles repository, where I store my Linux rice configurations. T
 These dotfiles are simple and basic.
 
 ## Screenshot
-![](showcase.png)
+![](showcase01.png)
+![](showcase02.png)
 
 ## System Information
 

@@ -9,12 +9,13 @@ killall -q polybar
 while pgrep -x polybar >/dev/null; do sleep 1; done
 
 # Launch bars
-polybar left & disown
+polybar left1 & disown
+polybar left2 & disown
 polybar center & disown
 polybar right & disown
 
 echo "Bars launched..."
 
-# echo "---" | tee -a $HOME/Documents/Log/polybar1.log $HOME/Documents/Log/polybar2.log
-# polybar left 2>&1 | tee -a $HOME/Documents/Log/polybar1.log & disown
-# polybar right 2>&1 | tee -a $HOME/Documents/Log/polybar2.log & disown
+#echo "---" | tee -a $HOME/Documents/Log/polybar1.log $HOME/Documents/Log/polybar2.log
+#polybar left 2>&1 | tee -a $HOME/Documents/Log/polybar1.log & disown
+#polybar right 2>&1 | tee -a $HOME/Documents/Log/polybar2.log & disown
