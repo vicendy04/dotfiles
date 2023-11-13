@@ -11,12 +11,12 @@ These dotfiles are simple and basic.
 
 ## System Information
 
-|      What's           | I use         |
+|      What             | I use         |
 | :-------------------: | :-----------: |
 | Distro                | Fedora        |
-| Window Manager        | bspwm         |
-| Desktop Environment   | xfce          |
-| Apps Laucher          | rofi          |
+| Window manager        | bspwm         |
+| Desktop environment   | xfce          |
+| Apps Launcher         | rofi          |
 | Bar                   | polybar       |
 | Terminal              | alacritty     |
 | Shell                 | zsh           |
@@ -24,7 +24,7 @@ These dotfiles are simple and basic.
 | Compositor            | yshui-picom   |
 | Music Player          | mpd + ncmpcpp |
 | File Manager          | Thunar        |
-| Capture Software      | Flameshot     |
+| Screenshot Software   | Flameshot     |
 
 ## Appearance
 
